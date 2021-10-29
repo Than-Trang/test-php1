@@ -9,11 +9,6 @@
 		<div class="content">
 			<h1>Update</h1>
 			<form class="box" method="POST">
-
-				<!-- < ?php echo "<pre>";
-				print_r($data);
-				?> -->
-				
 				<div class="box1">
 					<h3>Full name: </h3>
 					<input type="text" id="fullname" value="<?php echo $data[0]['fullname'];?>" name="update_fullname">

@@ -152,14 +152,5 @@
 				include_once 'view/Register.php';
 			}
 		}
-		// public function xl_login(){
-		// 	if (isset($_SESSION['SelectLogin']) && $_SESSION['SelectLogin'][0]['level'] == "0") {
-		// 	header('location: ?action=home');
-		// 	}
-
-		// 	if(!isset($_SESSION['SelectLogin'])){
-		// 		header('location: ?action=homeAdmin');
-		// 	}	
-	// }
 	}
 ?>

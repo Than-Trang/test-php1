@@ -95,7 +95,7 @@ class BaseModel{
     public function Insert($insertFullname,$insertPassword,$insertAddress,$insertphone){
         $insert = "INSERT INTO `information`(`fullname`, `address`, `password`, `phonenumber`,`level`) 
             VALUES ('$insertFullname','$insertAddress','$insertPassword','$insertphone',0)";
-    //    print_r($insert);
+
         $this->str_connect->query($insert);
         return $this->str_connect->insert_id;
     }
