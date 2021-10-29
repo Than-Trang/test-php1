@@ -1,5 +1,5 @@
 <?php include_once 'HomePage.php';
-include_once 'controller/core/session.php';
+include_once 'core/session.php';
 ?>
 
 </head>

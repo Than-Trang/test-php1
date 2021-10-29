@@ -24,13 +24,9 @@
 					
 					<a href="?action=logout" class="btn-register" >Logout</a>
 				<?php }?>
-					<!-- <a href="?action=login" class="btn-register">Login</a>
-					<a href="?action=register" class="btn-login">Register</a> -->
-					
 				</div>
 			</div>
 		</header>
-		<!-- < ?php include_once 'table.html'?> -->
 		
 	</div>
 </body>
